@@ -82,7 +82,6 @@ const displayMovements = function (movements, sort = false) {
   });
 };
 
-//Not Map, but ForEach, cos no new array needed
 const createUsernames = function (accs) {
   accs.forEach(function (acc) {
     acc.username = acc.owner
